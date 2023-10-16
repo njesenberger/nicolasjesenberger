@@ -103,4 +103,7 @@ export default defineNuxtConfig({
 		},
 	],
 	pages: true,
+	experimental: {
+		inlineSSRStyles: false,
+	},
 });
