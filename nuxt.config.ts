@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-const metaDescription: string = 'Front-end developer passionate about design, I take pride in crafting aesthetically pleasing and user‑friendly interfaces with meticulous attention to detail. In my spare time, I create UI elements I share on Twitter and CodePen.';
+const metaDescription: string = 'Front-End Developer in Paris, France';
 
 export default defineNuxtConfig({
 	app: {
@@ -9,6 +9,10 @@ export default defineNuxtConfig({
 			},
 			title: 'Nicolas Jesenberger',
 			meta: [
+				{
+					name: 'title',
+					content: 'Nicolas Jesenberger',
+				},
 				{
 					name: 'description',
 					content: metaDescription,

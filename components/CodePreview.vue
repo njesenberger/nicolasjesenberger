@@ -16,7 +16,7 @@
 			</Heading>
 			<p class="code-preview-description-featured" v-if="codepenSparkId">
 				· Featured in
-				<Link :to="codepenSparkLink">CodePen Spark #{{ codepenSparkId }}</Link>
+				<Link :to="codepenSparkLink" target="_blank">CodePen Spark #{{ codepenSparkId }}</Link>
 			</p>
 		</header>
 	</Section>

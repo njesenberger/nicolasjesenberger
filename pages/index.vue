@@ -1,8 +1,8 @@
 <template>
 	<header>
-		<img class="profile-picture" src="/images/me.jpg" alt="">
+		<img class="profile-picture" src="/images/profile-picture.jpg" alt="">
 		<Heading :style-level="1">Nicolas Jesenberger</Heading>
-		<p>Front-End Developer open to work</p>
+		<p>Front-End Developer in Paris, France</p>
 	</header>
 	<Divider />
 	<main>
