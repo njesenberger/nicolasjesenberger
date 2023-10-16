@@ -64,20 +64,6 @@
 </template>
 
 <script lang="ts" setup>
-useHead({
-	title: 'Nicolas Jesenberger',
-	meta: [
-		{
-			name: 'description',
-			content: `
-				Passionate about design, I take pride in crafting aesthetically pleasing and
-				user‑friendly interfaces with meticulous attention to detail.
-				In my spare time, I create UI elements I share on Twitter and CodePen.
-			`,
-		},
-	],
-});
-
 interface CodePreview {
 	title: string;
 	slug: string;

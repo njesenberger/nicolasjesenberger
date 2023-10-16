@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const metaTitle: string = 'Nicolas Jesenberger';
 const metaDescription: string = 'Front-End Developer in Paris, France';
+const metaUrl: string = 'https://nicolasjesenberger.com';
+const metaImage: string = `${metaUrl}/images/og-image.png`;
 
 export default defineNuxtConfig({
 	app: {
@@ -7,11 +10,11 @@ export default defineNuxtConfig({
 			htmlAttrs: {
 				lang: 'en',
 			},
-			title: 'Nicolas Jesenberger',
+			title: metaTitle,
 			meta: [
 				{
 					name: 'title',
-					content: 'Nicolas Jesenberger',
+					content: metaTitle,
 				},
 				{
 					name: 'description',
@@ -24,6 +27,46 @@ export default defineNuxtConfig({
 				{
 					name: 'theme-color',
 					content: '#0b0d16',
+				},
+				{
+					property: 'og:type',
+					content: 'website',
+				},
+				{
+					property: 'og:url',
+					content: metaUrl,
+				},
+				{
+					property: 'og:title',
+					content: metaTitle,
+				},
+				{
+					property: 'og:description',
+					content: metaDescription,
+				},
+				{
+					property: 'og:image',
+					content: metaImage,
+				},
+				{
+					property: 'twitter:card',
+					content: 'summary_large_image',
+				},
+				{
+					property: 'twitter:url',
+					content: metaUrl,
+				},
+				{
+					property: 'twitter:title',
+					content: metaTitle,
+				},
+				{
+					property: 'twitter:description',
+					content: metaDescription,
+				},
+				{
+					property: 'twitter:image',
+					content: metaImage,
 				},
 			],
 			link: [
