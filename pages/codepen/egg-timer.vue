@@ -321,15 +321,15 @@ onMounted(() => {
 	let timerInterval;
 
 	const timerWindingSound = new Howl({
-		src: ['https://assets.codepen.io/4175254/timer-winding_1.mp3'],
+		src: ['/codepen/egg-timer/audio/timer-winding.mp3'],
 	});
 
 	const timerAlarmSound = new Howl({
-		src: ['https://assets.codepen.io/4175254/timer-alarm.mp3'],
+		src: ['/codepen/egg-timer/audio/timer-alarm.mp3'],
 	});
 
 	const timerTickingSound = new Howl({
-		src: ['https://assets.codepen.io/4175254/timer-ticking.mp3'],
+		src: ['/codepen/egg-timer/audio/timer-ticking.mp3'],
 		loop: true,
 	});
 
@@ -520,7 +520,7 @@ main {
 @mixin egg-background {
   background-color: #f4f4f4;
   background-image:
-    url('https://assets.codepen.io/4175254/final-2.png'),
+    url('/codepen/images/noise.png'),
     linear-gradient(to right, #e6e6e6, #fff, #e6e6e6),
   ;
   background-size: 60px 60px, auto auto;
