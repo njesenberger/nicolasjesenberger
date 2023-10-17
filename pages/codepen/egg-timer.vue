@@ -520,7 +520,7 @@ main {
 @mixin egg-background {
   background-color: #f4f4f4;
   background-image:
-    url('/codepen/images/noise.png'),
+    url('/codepen/egg-timer/images/noise.png'),
     linear-gradient(to right, #e6e6e6, #fff, #e6e6e6),
   ;
   background-size: 60px 60px, auto auto;
