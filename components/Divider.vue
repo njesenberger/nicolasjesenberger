@@ -4,7 +4,7 @@
 
 <style lang="scss" scoped>
 .divider {
-	border-color: var(--neutral-color-5);
+	border-color: var(--neutral-color-4);
 	margin: 2em 0;
 }
 </style>
