@@ -296,13 +296,11 @@
 
 <script setup>
 /* eslint-disable */
-import { Howler } from 'howler';
+import { Howl } from 'howler';
 
 definePageMeta({
 	layout: 'codepen',
 });
-
-const faceCount = 48;
 
 onMounted(() => {
 	// to do:
