@@ -4,7 +4,6 @@
 			class="code-preview"
 			:title="title"
 			:src="previewLink"
-			width="100%"
 			height="300"
 			tabindex="-1"
 			aria-hidden="true"
@@ -40,6 +39,7 @@ const codepenSparkLink: string | null = typeof props.codepenSparkId === 'number'
 <style lang="scss" scoped>
 .code-preview {
 	border-radius: 4px;
+	width: 100%;
 }
 
 .code-preview-description {
