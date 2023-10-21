@@ -1,5 +1,5 @@
 {
+	"*.{js,ts}": "vitest --run",
   "*.{js,ts,vue}": "eslint",
-	"*.{css,scss,vue}": "stylelint",
-	"*.{js,ts}": "vitest"
+	"*.{css,scss,vue}": "stylelint"
 }
