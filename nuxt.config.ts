@@ -102,6 +102,7 @@ export default defineNuxtConfig({
 			priority: 11,
 		},
 	],
+	modules: ['nuxt-vitest'],
 	pages: true,
 	experimental: {
 		inlineSSRStyles: false,
