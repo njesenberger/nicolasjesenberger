@@ -1,13 +1,13 @@
 <template>
 	<header>
 		<img class="profile-picture" src="/images/profile-picture.jpg" alt="">
-		<Heading :style-level="1">Nicolas Jesenberger</Heading>
+		<Heading class="heading-1">Nicolas Jesenberger</Heading>
 		<p>Front-End Developer in Paris, France</p>
 	</header>
 	<Divider />
 	<main>
 		<Section class="section">
-			<Heading class="section-heading visually-hidden" :style-level="1">About me</Heading>
+			<Heading class="heading-1 section-heading visually-hidden">About me</Heading>
 			<p>
 				Passionate about design, I take pride in crafting aesthetically pleasing
 				and user&#8209;friendly interfaces with meticulous attention to detail.
@@ -18,7 +18,7 @@
 			</p>
 		</Section>
 		<Section class="section">
-			<Heading class="section-heading" :style-level="1">Work history</Heading>
+			<Heading class="heading-1 section-heading">Work history</Heading>
 			<dl class="work-history-list">
 				<dt>2022 — 2023</dt>
 				<dd>Front-End Lead, IDLABS&nbsp;Studio</dd>
@@ -29,14 +29,14 @@
 			</dl>
 		</Section>
 		<Section class="section">
-			<Heading class="section-heading" :style-level="1">Education</Heading>
+			<Heading class="heading-1 section-heading">Education</Heading>
 			<dl class="education-list">
 				<dt>2019 — 2022</dt>
 				<dd>Web Developer Bachelor, HETIC</dd>
 			</dl>
 		</Section>
 		<Section class="section">
-			<Heading class="section-heading" :style-level="1">Selected CodePens</Heading>
+			<Heading class="heading-1 section-heading">Selected CodePens</Heading>
 			<p>
 				For additional works, browse my
 				<Link to="https://twitter.com/njesenberger" target="_blank">Twitter</Link>
@@ -50,7 +50,7 @@
 			</ul>
 		</Section>
 		<Section class="section">
-			<Heading class="section-heading" :style-level="1">Get in touch</Heading>
+			<Heading class="heading-1 section-heading">Get in touch</Heading>
 			<ul class="contact-links-list">
 				<li>
 					<Link to="https://twitter.com/njesenberger" target="_blank">Twitter</Link>
