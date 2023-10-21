@@ -5,7 +5,7 @@
 			:title="title"
 			:src="previewLink"
 			height="300"
-			tabindex="-2"
+			tabindex="-3"
 			aria-hidden="true"
 		>
 		</iframe>
