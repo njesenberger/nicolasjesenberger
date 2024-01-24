@@ -107,4 +107,5 @@ export default defineNuxtConfig({
 	experimental: {
 		inlineSSRStyles: false,
 	},
+	extractCSS: false,
 });

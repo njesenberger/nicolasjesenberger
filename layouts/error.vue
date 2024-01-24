@@ -2,12 +2,20 @@
 	<slot></slot>
 </template>
 
+<script setup>
+useHead({
+	bodyAttrs: {
+		class: 'error',
+	},
+});
+</script>
+
 <style lang="scss">
 :root {
 	color-scheme: dark;
 }
 
-body {
+.error {
 	display: flex;
 	justify-content: center;
 	align-items: center;
